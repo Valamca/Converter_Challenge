@@ -1,20 +1,18 @@
-# Converter_Challenge
-
-
-![Conversor-Challenge.jpg](https://i.postimg.cc/1t5QrJ8Q/Conversor.jpg)
+# Converter Challenge
+ ![Conversor-Challenge.jpg](https://i.postimg.cc/1t5QrJ8Q/Conversor.jpg)
 
 <ul align = "center">
-<img src="https://img.shields.io/badge/_HTML5-FFC500?style=flat&logo=html5"/>   <img src="https://img.shields.io/badge/JavaScript-231B02?    style=flat&logo=JavaScript"/><img src="https://img.shields.io/badge/CSS3-magenta?style=flat&logo=css3&logoColor=69FFCB"/>
+<img src="https://img.shields.io/badge/_Lenguaje-190202?style=flat"/><img src="https://img.shields.io/badge/_Java-F20000?style=flat"/>
 </ul>
 
-## Descripción
+## Descripción :page_facing_up:
 
-***Sobre el desafío***: <br>
+***Sobre el desafío***: :pushpin: <br> 
 Programa que puede hacer conversión entre diferentes sistemas, como lo son Divisas, Temperaturas y Mediciones, basado en JAVA <br>
 
-#### Requisitos del desafío:
+#### Requisitos del desafío: :pencil2:
 
- El conversir de moneda debe:
+ El conversor de monedas debe:
  
       - Convertir de la moneda de tu país  a Dólar
       - Convertir de la moneda de tu país  a Euros
@@ -31,10 +29,10 @@ Programa que puede hacer conversión entre diferentes sistemas, como lo son Divi
         - Convertir de Yen Japonés a la moneda de tu país
         - Convertir de Won sul-coreano a la moneda de tu país
 
-#### Extras:
+#### Extras: :bangbang:
 Como desafío extra te animamos a que dejes fluir tu creatividad, si puedo convertir divisas, ¿tal vez pueda añadir a mi programa otros tipos de conversiones como temperatura por ejemplo?
 
-## Conversor de Divisas.
+## Conversor de Divisas. :dollar: :euro: :pound: :yen: 
 
 ### Para hacer uso del conversor de divisas: <br>
 - Tienes que ingresar el valor que quieras convertir en el campo superior. <br>
@@ -45,7 +43,7 @@ Como desafío extra te animamos a que dejes fluir tu creatividad, si puedo conve
 
 ![Conversor-Divisas.jpg](https://i.postimg.cc/bY4vqfGS/Divisas-Conversor.jpg)
 
-## Conversor de Temperaturas.
+## Conversor de Temperaturas. :snowflake: :sunny: 
 
 ### Para hacer uso del conversor de temperaturas tienes que: <br>
 
@@ -57,19 +55,19 @@ Como desafío extra te animamos a que dejes fluir tu creatividad, si puedo conve
 
 ![Conversor-Temperatura.jpg](https://i.postimg.cc/503txXCx/Temperatura-Conversor.jpg)
 
-## Conversor de Mediciones.
+## Conversor de Longitudes. :straight_ruler: :triangular_ruler:
 
-### Para hacer uso del conversor de temperaturas tienes que: <br>
+### Para hacer uso del conversor de longitudes tienes que: <br>
 
 - Tienes que ingresar el valor que quieras convertir en el campo superior. <br>
-- Selecciona la temperatura correspondiente al valor que estes ingresando.<br>
-- Seleccionar la temperatura a la cual se quiere hacer la conversión.<br>
+- Selecciona el tipo de longitud correspondiente al valor que estes ingresando.<br>
+- Seleccionar la longitud a la cual se quiere hacer la conversión.<br>
 - El valor después de la conversión se mostrará en el recuadro inferior.<br>
 - El Botón **[↑↑↑]** Sirve para usar el valor de resultado de conversión como nuevo valor para convertir.<br>
 
 ![Conversor-Medición.jpg](https://i.postimg.cc/TYnrn9g1/Medicion-Conversor.jpg)
 
-**Desarrollador**
+**Desarrollador** :wink: 
 
  <img src="https://avatars.githubusercontent.com/u/129345721?v=4" width=115>
  
