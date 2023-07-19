@@ -1,5 +1,5 @@
 # Converter Challenge
- ![Conversor-Challenge.jpg](https://i.postimg.cc/1t5QrJ8Q/Conversor.jpg)
+ ![Conversor-Challenge.jpg](https://i.postimg.cc/WprgnbrX/Conversor.jpg)
 
 <ul align = "center">
 <img src="https://img.shields.io/badge/_Lenguaje-190202?style=flat"/><img src="https://img.shields.io/badge/_Java-F20000?style=flat"/>
@@ -41,7 +41,7 @@ Como desafío extra te animamos a que dejes fluir tu creatividad, si puedo conve
 - El valor después de la conversión se mostrará en el recuadro inferior.<br>
 - El Botón **[↑↑↑]** Sirve para usar el valor de resultado de conversión como nuevo valor para convertir.<br>
 
-![Conversor-Divisas.jpg](https://i.postimg.cc/bY4vqfGS/Divisas-Conversor.jpg)
+![Conversor-Divisas.jpg](https://i.postimg.cc/6pHv37J5/Divisas-Conversor.jpg)
 
 ## Conversor de Temperaturas. :snowflake: :sunny: 
 
