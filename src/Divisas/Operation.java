@@ -33,27 +33,27 @@ public class Operation {
 			
 			switch (c) {
 
-			case "USD":
+			case "Dólares USD":
 				options.ConvertionOptions(valueIn, ConvertionCurrency, CurrencyTo, ResultField,SymbolField,Symb);
 				break;
 
-			case "EUR":
+			case "Euros EUR":
 				options.ConvertionOptions(valueIn, ConvertionCurrency, CurrencyTo, ResultField,SymbolField,Symb);
 				break;
 
-			case "GBP":
+			case "Libras GBP":
 				options.ConvertionOptions(valueIn, ConvertionCurrency, CurrencyTo, ResultField,SymbolField,Symb);
 				break;
 
-			case "JPY":
+			case "Yenes JPY":
 				options.ConvertionOptions(valueIn, ConvertionCurrency, CurrencyTo, ResultField,SymbolField,Symb);
 				break;
 
-			case "KRW":
+			case "Wones KRW":
 				options.ConvertionOptions(valueIn, ConvertionCurrency, CurrencyTo, ResultField,SymbolField,Symb);
 				break;
 
-			case "MXN":
+			case "Pesos MXN":
 				options.ConvertionOptions(valueIn, ConvertionCurrency, CurrencyTo, ResultField,SymbolField,Symb);
 				break;
 			}

@@ -79,10 +79,11 @@ public class ConverterJP extends JPanel {
 		JComboBox ToChange = new JComboBox();
 		ToChange.setToolTipText("Scale");
 		ToChange.setForeground(new Color(0, 128, 0));
-		ToChange.setModel(new DefaultComboBoxModel(new String[] {"USD", "EUR", "GBP", "JPY", "KRW", "MXN"}));
+		ToChange.setModel(new DefaultComboBoxModel(new String[] {"Dólares USD","Euros EUR","Libras GBP",
+				"Yenes JPY","Wones KRW","Pesos MXN"}));
 		ToChange.setSelectedIndex(5);
 		ToChange.setFont(new Font("Tahoma", Font.BOLD, 18));
-		ToChange.setBounds(235, 164, 80, 28);
+		ToChange.setBounds(183, 164, 178, 28);
 		add(ToChange);
 		
 		//Campo de texto impreso en pantalla.
@@ -143,9 +144,10 @@ public class ConverterJP extends JPanel {
 			}
 		});
 		ToResult.setForeground(new Color(255, 0, 0));
-		ToResult.setModel(new DefaultComboBoxModel(new String[] {"USD", "EUR", "GBP", "JPY", "KRW", "MXN"}));
+		ToResult.setModel(new DefaultComboBoxModel(new String[] {"Dólares USD","Euros EUR","Libras GBP",
+				"Yenes JPY","Wones KRW","Pesos MXN"}));
 		ToResult.setFont(new Font("Tahoma", Font.BOLD, 18));
-		ToResult.setBounds(235, 271, 80, 28);
+		ToResult.setBounds(183, 271, 178, 28);
 		add(ToResult);
 		
 		//Botón para invertir las cantidad de salida y entrada así como sus JComboBox correspondientes.
@@ -167,7 +169,7 @@ public class ConverterJP extends JPanel {
 					ChangeBtm.setCursor(new Cursor(12));
 			}
 		});
-		ChangeBtm.setBounds(335, 271, 45, 28);
+		ChangeBtm.setBounds(371, 271, 45, 28);
 		add(ChangeBtm);
 		
 		//Campo de color.

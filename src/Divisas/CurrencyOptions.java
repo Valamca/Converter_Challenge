@@ -28,32 +28,32 @@ public class CurrencyOptions  {
 		//Creación de cada tipo de moneda con su clase Currency, su etiqueta, valor y simbolo distintivo
 		
 		Currency dollar = new Currency();
-		dollar.setCountry("USD");
+		dollar.setCountry("Dólares USD");
 		dollar.setValue(1);
 		dollar.setSymbol("$");
 		
 		Currency euro = new Currency();
-		euro.setCountry("EUR");
+		euro.setCountry("Euros EUR");
 		euro.setValue(dollar.getValue()*1.12);
 		euro.setSymbol("€");
 		
 		Currency libraE = new Currency();
-		libraE.setCountry("GBP");
+		libraE.setCountry("Libras GBP");
 		libraE.setValue(dollar.getValue()*1.31);
 		libraE.setSymbol("£");
 		
 		Currency yen = new Currency();
-		yen.setCountry("JPY");
+		yen.setCountry("Yenes JPY");
 		yen.setValue(dollar.getValue()*0.0072);
 		yen.setSymbol("¥");
 		
 		Currency won = new Currency();
-		won.setCountry("KRW");
+		won.setCountry("Wones KRW");
 		won.setValue(dollar.getValue()*0.00079);
 		won.setSymbol("₩");
 		
 		Currency pesoMx = new Currency();
-		pesoMx.setCountry("MXN");
+		pesoMx.setCountry("Pesos MXN");
 		pesoMx.setValue(dollar.getValue()*0.060);
 		pesoMx.setSymbol("$");
 		
@@ -63,22 +63,22 @@ public class CurrencyOptions  {
 		Currency base = null; //Para asegurarse de reiniciar la tag antes de otorgarle un Objeto Currency
 		
 		switch(CurrencyTo) {
-		case("USD"): 
+		case("Dólares USD"): 
 			base = dollar;
 			break;
-		case("EUR"):
+		case("Euros EUR"):
 			base = euro;
 			break;
-		case("GBP"):
+		case("Libras GBP"):
 			base = libraE;
 			break;
-		case("JPY"):
+		case("Yenes JPY"):
 			base = yen;
 		    break;
-		case("KRW"):
+		case("Wones KRW"):
 			base = won;
 		    break;
-		case("MXN"):
+		case("Pesos MXN"):
 			base = pesoMx;
 		    break;
 		}	
